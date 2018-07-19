@@ -1,0 +1,40 @@
+ #wrapper {
+    
+        margin: auto;
+        width:80%;
+        margin-top:50px;
+}
+
+
+#movieListCardDiv{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    
+}
+#movieImage{
+    width:150px;
+    height:150px;
+}
+#movieTitleBtn{
+    width:100px;
+    margin-left:30px;
+}
+h1 {
+    text-align: center;
+}
+#movieDetailsDiv{
+    display: flex;
+    justify-content:left;
+}
+#movieDetailsDiv{
+    margin:150px;
+} 
+#movieDetailsDiv ul{
+    list-style: none;
+}
+#movieDetailsDiv ul li {
+   padding:10px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 20px;
+}
